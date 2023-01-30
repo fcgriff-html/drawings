@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T20:00:08.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="f3O7IvccAsJizS6jDm5h" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T17:03:45.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="uE8t6_sCLZbTF5sfgutu" version="20.8.13" type="github">
   <diagram name="Page-1" id="OGRp49UVCb39jeSWY-7e">
-    <mxGraphModel dx="2284" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="1974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jqPJKUNV1gk7dgje5MiJ-1" value="&lt;h1&gt;Call Day Reminders&lt;/h1&gt;&lt;div&gt;we can use the time of day to determine what message format the client receives&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="30" width="190" height="120" as="geometry" />
+        <mxCell id="jqPJKUNV1gk7dgje5MiJ-1" value="&lt;h1&gt;Call Day Reminders&lt;/h1&gt;&lt;div&gt;we can use the time of day to determine what message format the client receives&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;and the system will delete them from the call day db when they have processed for that day&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-80" width="290" height="170" as="geometry" />
         </mxCell>
         <mxCell id="jqPJKUNV1gk7dgje5MiJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqPJKUNV1gk7dgje5MiJ-3" target="jqPJKUNV1gk7dgje5MiJ-6">
           <mxGeometry relative="1" as="geometry" />
@@ -332,12 +332,12 @@
         <mxCell id="jqPJKUNV1gk7dgje5MiJ-76" value="default" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jqPJKUNV1gk7dgje5MiJ-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jqPJKUNV1gk7dgje5MiJ-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jqPJKUNV1gk7dgje5MiJ-72">
+        <mxCell id="jqPJKUNV1gk7dgje5MiJ-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jqPJKUNV1gk7dgje5MiJ-72" target="jqPJKUNV1gk7dgje5MiJ-81">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1335" y="180" as="sourcePoint" />
             <mxPoint x="1465" y="205" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1330" y="205" />
+              <mxPoint x="1330" y="213" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -349,6 +349,9 @@
         </mxCell>
         <mxCell id="jqPJKUNV1gk7dgje5MiJ-80" value="CallDay.Notifications.Contact.NotifStyle.Db" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="1880" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jqPJKUNV1gk7dgje5MiJ-81" value="Client receives TWO emails, one the night before the call day and one the day of" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="150" width="220" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
